@@ -32,17 +32,37 @@
     font-weight: bold;
     font-family: "Kode Mono", monospace;
     font-optical-sizing: auto;
+    
+    font-style: normal;
+    color: white;
+    background-color: black;
+    margin: 5px;
+    border: 2px solid rgb(87, 87, 87);
+    border-radius: 7px;
+}
+#hiscoreBox{
+    position: absolute;
+    top: 90px;
+    right: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     color: white;
     background-color: black;
     margin: 5px;
+    border: 2px solid rgb(87, 87, 87);
+    border-radius: 7px;
+
+
 }
 .head{
     background-color: green;
     border: .25vmin solid #05c905;
     transform: scale(1.02);
-    border-radius: 12px;
+    border-radius: 8px;
     
 }
 .snake{
